@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "DEUT | Visual Control",
-  description: "Don't type. Snap it in.",
+  title: "Deut Landing",
+  description: "Visual arts tool",
 };
 
 export default function RootLayout({
@@ -12,8 +12,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className="antialiased">{children}</body>
+    <html lang="ru">
+      <body className="antialiased">
+        {children}
+      </body>
     </html>
   );
 }
